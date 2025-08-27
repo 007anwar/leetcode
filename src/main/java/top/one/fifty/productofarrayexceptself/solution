@@ -1,0 +1,40 @@
+Input: nums = [1,2,3,4]
+Output: [24,12,8,6]
+
+
+
+so we need to create two arrays say leftsum and rigthsum
+
+
+start with left sum
+
+1 1 2 6
+24  12 4 1
+
+
+so can i just multiply all and the divide by self this solution will be more efficient
+if we have zero in array then problem will occur
+
+
+
+so leftProduct and right product is only best and optimal approach for this
+
+
+set first element of prefix and last element suffix to to 1 no matter what
+
+start itterating from 1st element
+
+multiple by previous pre with previous num
+
+
+
+
+
+
+
+
+
+
+
+
+
